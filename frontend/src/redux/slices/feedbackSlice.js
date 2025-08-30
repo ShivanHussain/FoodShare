@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const BASE_URL = "http://localhost:4000/api/v1/feedback";
+const BASE_URL = "https://foodshare-wwb9.onrender.com/api/v1/feedback";
 
 // ========== Thunks ==========
 
