@@ -6,7 +6,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { createSelector } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api/v1/mappls'
+const BASE_URL = 'https://foodshare-wwb9.onrender.com/api/v1/mappls'
 
 // Async thunk for getting access token 
 export const getAccessToken = createAsyncThunk(
