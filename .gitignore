@@ -1,0 +1,75 @@
+# =========================
+# Global ignores
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep your secrets safe!)
+.env
+*.env
+backend/config/config.env
+ML-Model/.env
+
+# Local development files
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Node.js / Backend
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# React / Frontend (Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# =========================
+# Python / ML-Model
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+*.ruff_cache/
+.venv/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# =========================
+# OS generated
+# =========================
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# Other
+# =========================
+*.zip
+*.tar
+*.gz
