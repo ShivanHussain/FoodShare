@@ -5,7 +5,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 // Base URL for NGO impact API
-const BASE_URL = 'http://localhost:4000/api/v1/analytics/ngo/impact';
+const BASE_URL = 'https://foodshare-wwb9.onrender.com/api/v1/analytics/ngo/impact';
 
 // @disc fetch total meals  
 export const fetchTotalMeals = createAsyncThunk('ngoImpact/fetchTotalMeals', 
