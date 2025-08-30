@@ -3,10 +3,10 @@ import { Heart, Users, MapPin, Star, Calendar, Package, MessageCircle, Award, Us
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUserByIdWithDetails } from '../../redux/slices/adminSlice';
-import SelectedUserheader from '../../components/admin/SelectedUser/SelectedUserheader';
 import SelectedUserLeftSection from '../../components/admin/selectedUser/SelectedUserLeftSection';
 import Loader from '../../components/Loader';
 import SelectedUserRightSection from '../../components/admin/selectedUser/SelectedUserRightSection';
+import SelectedUserheader from '../../components/admin/SelectedUser/SelectedUserheader';
 
 const UserProfilePage = () => {
     const { id } = useParams();
