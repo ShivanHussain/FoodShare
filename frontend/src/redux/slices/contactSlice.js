@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 
-const BASE_URL = 'http://localhost:4000/api/v1/contact';
+const BASE_URL = 'https://foodshare-wwb9.onrender.com/api/v1/contact';
 
 // 1. Submit contact form (user)
 export const submitContactForm = createAsyncThunk(
