@@ -3,7 +3,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 
-const API_BASE_URL = 'http://localhost:4000/api/v1/analytics/donor';
+const API_BASE_URL = 'https://foodshare-wwb9.onrender.com/api/v1/analytics/donor';
 
 // 1️ FETCH DASHBOARD STATS 
 export const fetchDashboardStats = createAsyncThunk(
