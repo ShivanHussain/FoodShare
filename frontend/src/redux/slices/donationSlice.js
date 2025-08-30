@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const BASE_API = 'http://localhost:4000/api/v1/donations'
+const BASE_API = 'https://foodshare-wwb9.onrender.com/api/v1/donations'
 
 // =========================
 // 1. CREATE DONATION 
