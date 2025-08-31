@@ -13,9 +13,6 @@ const UserProfilePage = () => {
     const dispatch = useDispatch();
     const { selectedUser, loading, error } = useSelector((state) => state.admin);
 
-    console.log("Selected User ID from URL:", id);
-    console.log("All Users from Redux:", selectedUser);
-
     useEffect(() => {
         if (id) {
             dispatch(fetchUserByIdWithDetails(id));
