@@ -6,7 +6,7 @@ import { fetchUserByIdWithDetails } from '../../redux/slices/adminSlice';
 import SelectedUserLeftSection from '../../components/admin/selectedUser/SelectedUserLeftSection';
 import Loader from '../../components/Loader';
 import SelectedUserRightSection from '../../components/admin/selectedUser/SelectedUserRightSection';
-import SelectedUserheader from '../../components/admin/SelectedUser/SelectedUserheader';
+import SelectedUserheader from '../../components/admin/SelectedUser/SelectedUserheader.jsx';
 
 const UserProfilePage = () => {
     const { id } = useParams();
