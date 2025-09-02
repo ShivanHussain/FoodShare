@@ -34,8 +34,9 @@ export const isAuthenticated = catchAsyncErrors(async (req, res, next) => {
     // Remove expired/invalid token cookie
     res.clearCookie("token", {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "Lax",
+      sameSite: "None",
+      secure: true
+
     });
 
     const message =
