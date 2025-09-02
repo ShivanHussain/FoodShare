@@ -5,8 +5,8 @@ export const generateToken = (user, message, statusCode, res) => {
     .status(statusCode)
     .cookie("token", token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production', // only over HTTPS
-      sameSite: 'Lax', // or 'None' if you're doing cross-domain
+      secure: true,           // Always true in production (Render uses HTTPS)
+      sameSite: "None",       // Required for cross-domain cookies
       expires: new Date(
         Date.now() + process.env.COOKIE_EXPIRE * 24 * 60 * 60 * 1000
       ),
