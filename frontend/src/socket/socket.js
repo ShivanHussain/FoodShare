@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000", { withCredentials: true });
+const socket = io("https://foodshare-wwb9.onrender.com", { withCredentials: true });
 
 export default socket; //default export
 
